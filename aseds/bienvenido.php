@@ -10,7 +10,6 @@ if(!isset($_SESSION['usuario'])){
     </script>';
     session_destroy();
     die();
-    session_destroy();
 }
 
 ?>
