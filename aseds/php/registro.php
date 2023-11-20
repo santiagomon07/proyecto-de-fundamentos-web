@@ -19,7 +19,7 @@ if(mysqli_num_rows($verificar_correo) >0){
     echo '
     <script> 
         alert("Este correo ya esta registrado, este ya esta registrado");
-        window.location = "../index.php";
+        window.location = "../inicio.php";
     </script>';
     exit();
 }
@@ -29,7 +29,7 @@ if(mysqli_num_rows($verificar_correo) >0){
     echo '
     <script> 
         alert("Este usuario ya esta registrado, este ya esta registrado");
-        window.location = "../index.php";
+        window.location = "../inicio.php";
     </script>';
     exit();
 }
@@ -40,7 +40,7 @@ if($ejecutar){
     echo '
     <script>
         alert("Usuario almacenado correctamente");
-        window.location = "../index.php"
+        window.location = "../inicio.php"
     </script>';
 }
 
@@ -48,7 +48,7 @@ else{
     echo '
     <script>
         alert("Intente de nuevo usuario no almacenado");
-        window.location = "../index.php"
+        window.location = "../inicio.php"
     </script>';
 }
 

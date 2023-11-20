@@ -3,16 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
-
+    font-family: 'Roboto', sans-serif;
 }
+
 body{
-    background-image: url(../imagen.jpg);
+    background-image: url(../resources/img/imagen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
+
 main{
     width: 100%;
     padding: 20px;
@@ -32,23 +33,31 @@ main{
     padding: 10px 20px;
     display: flex;
     justify-content: center;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgba(0, 128, 255, 0.5);
 }
+
 .caja__trasera div{
     margin: 100px 40px;
     color: white;
     transition: all 500ms;
-     
+    
 }
+
 .caja__trasera div p,
-.caja__trasera div button{
-    margin: 30px;
+.caja__trasera button{
+    margin-top: 30px;
 }
 
 .caja__trasera div h3{
     font-weight: 400;
     font-size: 26px;
+}
+
+.caja__trasera div p{
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .caja__trasera button{
@@ -69,7 +78,7 @@ main{
     color: #46A2FD;
     
 }
-/*formulario*/
+/*formularios*/
 .contenedor__login-registro{
     display: flex;
     align-items: center;
@@ -113,6 +122,7 @@ main{
     border: none;
     font-size: 14px;
     background: #46A2FD;
+    font-weight: 600;
     color: white;
     cursor: pointer;
     outline: none;
@@ -123,8 +133,8 @@ main{
     display: block;
 }
 
-.contenedor__registrarse{
-    display: block;
+.formulario__registrarse{
+    display: none;
 
 }
 /*trabajando en el responsive design*/
@@ -132,16 +142,20 @@ main{
     main{
         margin-top: 50px;
     }
+
     .caja__trasera{
         max-width: 350px;
         height: 300px;
         flex-direction: column;
         margin: auto;
     }
+    
     .caja__trasera div{
         margin: 0px;
         position: absolute;
     }
+
+    /*Formularios*/
     .contenedor__login-registro{
         top: -10px;
         left: -5px;
@@ -151,3 +165,32 @@ main{
         position: relative;
     }
 }
+
+#twd{
+        width: 95%;
+        border-radius: 40px;
+    }
+    
+    #rick{
+        width: 50%;
+    }
+    
+    #daryl{
+        width: 85%;
+    }
+    
+    #negan{
+        width: 90%;
+    }
+    
+    #maggie{
+        width: 90%;
+    }
+    
+    #morgan{
+        width: 50%;
+    }
+    
+    #michonne{
+        width: 85%;
+    }

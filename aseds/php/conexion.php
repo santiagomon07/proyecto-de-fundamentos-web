@@ -1,11 +1,14 @@
 <?php
-
-$conexion = mysqli_connect("localhost", "root", "" , "longin_register_db"); 
-/*if ($conexion)
-{
-    echo 'conectado exitosamente a la base de datos';
-}else{
-    echo 'no se ha podido conectar a la base de datos';
-}*/
-
+    $host="localhost";
+    $user="root";
+    $password="";
+    $database="longin_register_db";
+    
+    $conexion = mysqli_connect($host, $user, $password, $database); 
+    
+    if (!$conexion)
+    {
+        die("Conexión fallida".mysqli_connect_error());
+    }
+    echo "Conectado exitosamente";
 ?>
