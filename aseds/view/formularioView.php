@@ -46,28 +46,36 @@
         </div>
 
         <div class="button-container">
-            <button type="submit" name="m" value="guardar">GUARDAR</button>
+            <button type="submit" name="m" value="guardar" title="Guardar" >Guardar</button>
         </div>
         <br>
         <div class="button-container">
-            <button type="submit" name="m" value="index">MOSTRAR RESPUESTAS</button>
+            <button type="submit" name="m" value="index" title="Volver" >Volver</button>
         </div>
         <br>
         <div class="contact-info">
 
             <div class="info">
-                <span><i class="fas fa-map-marker-alt"></i> Avenida 6N <br>No. 28N - 102. <br>Cali - Valle</span>
+            <p align="center" >
+                    
+                    Gracias por contestar nuestra encuesta,
+                    nos ayudas a mejorar cada día.
+                    </p>
+                    
+                </p>            
             </div>
 
             <div class="info">
-                <span><i class="fas fa-phone"></i> +57 602 6667777</span>
+                <span><i class="fas fa-phone"></i> +57 3014062595</span>
             </div>
 
         </div>
     </form>
     <script src="https://kit.fontawesome.com/bbff992efd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    <!--Boton de accessibility-->
+    <script class="mx-3">(function(d){var s = d.createElement("script");s.setAttribute("data-account", "tkCHtUA3Ge");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+        
 </body>
 
 </html>

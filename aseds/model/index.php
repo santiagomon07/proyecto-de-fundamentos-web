@@ -5,7 +5,7 @@ class Modelo{
     private $datos;    
     public function __construct(){
         $this->Modelo = array();
-        $this->db = new PDO('mysql:host=localhost;dbname=longin_register_db',"root","");
+        $this->db = new PDO('mysql:host=localhost;dbname=login_register_db',"root","");
     }
 
     public function mostrar($tabla,$condicion){

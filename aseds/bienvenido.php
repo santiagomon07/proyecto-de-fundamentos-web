@@ -21,7 +21,7 @@ if(!isset($_SESSION['usuario'])){
 
         <title>The Walking Dead</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style2.css">
         <link rel="stylesheet" href="./ejercicio_files/cls.css">
         <link rel="shortcut icon" href="./resources/img/zombi.ico"
             type="image/x-icon">
@@ -39,7 +39,7 @@ if(!isset($_SESSION['usuario'])){
     <iframe id="google_esf" name="google_esf"
         src="./ejercicio_files/zrt_lookup.html" style="display: none;"></iframe>
 
-    <body aria-hidden="false" style="--fsAncillary: var(--use);">
+    <body aria-hidden="false" style="--fsAncillary: var(--use);" >
         <div id="Outer">
 
             <div id="Inner">
@@ -331,11 +331,11 @@ if(!isset($_SESSION['usuario'])){
                         <br>
 
                         <hr>
+                        <div>
+                        <a title="Nueva Encuesta" type="button" class="btn btn-success" href="index.php?m=nuevo" style="margin-right: 965px;">ENCUESTA</a>
                         <p></p>
-                        <a type="button" class="btn btn-success" href="index.php?m=nuevo" style="margin-right: 965px;">ENCUESTA</a>
-                        <p></p>
-                        
-                        <table id="table" class="display" style="width:100%">
+                        </div>
+                        <table id="table" class="table table-bordered table-striped dataTable dtr-inline border-dark" style="width:100%">
                                 <thead>
                                     <tr>
                                         <th>ID</th>
@@ -343,7 +343,7 @@ if(!isset($_SESSION['usuario'])){
                                         <th>TELÉFONO</th>
                                         <th>CORREO</th>
                                         <th>CALIFICACIÓN</th>
-                                        <th>PERSONAJE FAV</th>
+                                        <th>PERSONAJE FAVORITO</th>
                                         <th>RECOMENDACIÓN</th>
                                         <th>ACCIÓN</th>
                                     </tr>
@@ -362,8 +362,8 @@ if(!isset($_SESSION['usuario'])){
                                             <td><?php echo $v['personaje'] ?> </td>
                                             <td><?php echo $v['recomienda'] ?> </td>
                                             <td>
-                                                <a type="button" class="btn btn-success" href="index.php?m=editar&id=<?php echo $v['estudiante_id']?>">EDITAR</a>
-                                                <a type="button" class="btn btn-danger" href="index.php?m=eliminar&id=<?php echo $v['estudiante_id']?>" onclick="return confirm('¿ESTA SEGURO?'); false">ELIMINAR</a>
+                                                <a title="Editar" type="button" class="btn btn-success" href="index.php?m=editar&id=<?php echo $v['encuesta_id']?>"><i class="fas fa-edit"></i></a>
+                                                <a title="Eliminar" type="button" class="btn btn-danger" href="index.php?m=eliminar&id=<?php echo $v['encuesta_id']?>" onclick="return confirm('¿ESTA SEGURO?'); false"><i class="fas fa-trash-alt"></i></a>
                                                 
                                             </td>
                                         </tr>
@@ -375,7 +375,10 @@ if(!isset($_SESSION['usuario'])){
                                 <?php endif ?>
                                 </tbody>
                         </table>
-
+                        <hr>
+                        <?php
+                        require_once "./view/grafica.php";
+                        ?>
                     </div>
                     <hr>
                     <div class="boxed">Fundamentos Web - <strong>4303A</strong></div>
@@ -384,13 +387,13 @@ if(!isset($_SESSION['usuario'])){
                 <hr>
 
                 <div class="boxed"><a style="text-decoration:none"
-                        href="mailto:mail@mail.com">michellklinger@mail.com</a><br><a
+                        href="mailto:mail@mail.com">solucionesprogramadas@gmail.com</a><br><a
                         style="text-decoration:none" rel="nofollow"
                         href="https://www.uniajc.edu.co/">Universidad Antonio
                         José Camacho</a>
 
                     <a style="cursor:pointer" class="change-consent">|Diseñado
-                        por la estudiante Michell Klinger</a>
+                        por estudiantes</a>
 
                 </div>
 
@@ -402,6 +405,10 @@ if(!isset($_SESSION['usuario'])){
             crossorigin="anonymous"></script>
             <script src="https://kit.fontawesome.com/bbff992efd.js" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+            <!--Boton de accessibility-->
+            <script class="mx-3">(function(d){var s = d.createElement("script");s.setAttribute("data-account", "tkCHtUA3Ge");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+        
+        
         </body>
 
     </html>

@@ -21,7 +21,6 @@ if(isset($_SESSION['usuario'])){
 </head>
 
 <body>
-
     <main>
         <div class="contenedor__todo">
             <div class="caja__trasera">
@@ -60,5 +59,8 @@ if(isset($_SESSION['usuario'])){
         </div>
     </main>
     <script src="js/script.js"></script>
+    <!--Boton de accessibility-->
+    <script class="mx-3">(function(d){var s = d.createElement("script");s.setAttribute("data-account", "tkCHtUA3Ge");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+        
 </body>
 </html>

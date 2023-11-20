@@ -165,32 +165,3 @@ main{
         position: relative;
     }
 }
-
-#twd{
-        width: 95%;
-        border-radius: 40px;
-    }
-    
-    #rick{
-        width: 50%;
-    }
-    
-    #daryl{
-        width: 85%;
-    }
-    
-    #negan{
-        width: 90%;
-    }
-    
-    #maggie{
-        width: 90%;
-    }
-    
-    #morgan{
-        width: 50%;
-    }
-    
-    #michonne{
-        width: 85%;
-    }
