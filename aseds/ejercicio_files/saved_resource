@@ -1,0 +1,40 @@
+
+var ftGUID_4228585="56248A625C45CF";
+var ftConfID_4228585="0";
+var ftParams_4228585="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=es.lipsum.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fes.lipsum.com%2F&ft_section=__15365979244051994434512138242414795440&cachebuster=921725.2226812711";
+var ftKeyword_4228585="";
+var ftCustom_4228585="";
+var ftSection_4228585="__15365979244051994434512138242414795440";
+var ftSegment_4228585="w2c";
+var ftSegmentList_4228585=[{s:'w2c'}];
+var ftRuleMatch_4228585="0";
+var ftTimestamp_4228585="1693796837";
+var ftGeoC2_4228585="co";
+var ftGeoState_4228585="vac";
+var ftGeoCity_4228585="santiago de cali";
+var ftISP_4228585="telmex colombia s.a.";
+var ftSpeed_4228585="broadband";
+var ftConnType_4228585="wifi";
+var ftDMA_4228585="-1";
+var ftLong_4228585="-76.52";
+var ftLat_4228585="3.38";
+var ftPostal_4228585="760026";
+var ftTimeZone_4228585="-500";
+var ftMobileCarrier_4228585="";
+var ftImp4228585 = {};
+ftImp4228585.privacy = "x";
+ftImp4228585.guidAge = "101";
+ftImp4228585.impID = "027EC8A7-70C3-6F81-6143-D4FA1FD1E955";
+ftImp4228585.duid = "FT:56248A625C45CF";
+
+ftImp4228585.ft_tpplid = "";
+ftImp4228585.ft_c = {};
+ftImp4228585.gdpr = "";
+ftImp4228585.gdpr_consent = "";
+ftImp4228585.gdpr_pd = "";
+ftImp4228585.oob_consent = "";
+ftImp4228585.gdprStoredConsent = "";
+ftImp4228585.us_privacy = "";
+ftImp4228585.gpc = "";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/422/4228585/4418513/js/j-4228585-4418513.js" id="ftscript_m4228585" name="ftscript_m4228585"></scr'+'ipt>');

@@ -14,157 +14,394 @@ if(!isset($_SESSION['usuario'])){
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bienvenido</title>
-    <link rel="stylesheet" href="cc2/style.css">
-</head>
-<body id="cr7" aria-hidden="false" style="--fsAncillary: var(--use);">
-    <div id="Outer">
-        
+<html lang="es">
 
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <div id="Inner">
+        <title>The Walking Dead</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./ejercicio_files/cls.css">
+        <link rel="shortcut icon" href="./resources/img/zombi.ico"
+            type="image/x-icon">
+        <link rel="stylesheet" type="text/css"
+            href="./ejercicio_files/230223.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+        <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-            <h1>El Mejor Futbolista De Todos Los tiempos </h1>
-            <h4>"A lo largo de la histria de la humanidad el futbol se ha convertido en uno de los mayores eventos de
-                atracion..."</h4>
-            <h5>"en este documento vamos a ver a quien yo considero como el mas grande de la historia del futbol"</h5>
+    </head>
+    <iframe id="google_esf" name="google_esf"
+        src="./ejercicio_files/zrt_lookup.html" style="display: none;"></iframe>
 
+    <body aria-hidden="false" style="--fsAncillary: var(--use);">
+        <div id="Outer">
 
-            <hr>
+            <div id="Inner">
 
-            <div id="Content">
-                <div id="bannerL" style=""><!-- Tag ID: lipsumcom_left_siderail -->
-                    <div align="center" data-freestar-ad="__300x600" id="lipsumcom_left_siderail"
-                        name="lipsumcom_left_siderail" data-google-query-id="CJKu--j2j4EDFSmBWgUd0KoLtA">
+                <h1>THE WALKING DEAD</h1>
+                <h5>Una serie para verdaderos fanaticos de los muertos
+                    vivientes.</h5>
 
+                <hr>
 
+                <div id="Content">
+                    <div id="bannerL" style><!-- Tag ID: lipsumcom_left_siderail -->
+                        <div align="center" data-freestar-ad="__300x600"
+                            id="lipsumcom_left_siderail"
+                            name="lipsumcom_left_siderail"
+                            data-google-query-id="CJKu--j2j4EDFSmBWgUd0KoLtA">
+
+                        </div>
                     </div>
-                </div>
-                <div id="bannerR" style=""><!-- Tag ID: lipsumcom_right_siderail -->
-                    <div align="center" data-freestar-ad="__300x600" id="lipsumcom_right_siderail"
-                        name="lipsumcom_right_siderail" data-google-query-id="CLDZ9-j2j4EDFSmBWgUd0KoLtA">
+                    <div id="bannerR" style><!-- Tag ID: lipsumcom_right_siderail -->
+                        <div align="center" data-freestar-ad="__300x600"
+                            id="lipsumcom_right_siderail"
+                            name="lipsumcom_right_siderail"
+                            data-google-query-id="CLDZ9-j2j4EDFSmBWgUd0KoLtA">
 
-
+                        </div>
                     </div>
-                </div>
-                <div id="Panes">
-                    <div>
-                        <h2>Aveiro Dos santos Cristiano Ronaldo</h2>
-                        <p><strong>Cristiano Ronaldo</strong> es un futbolista portugués que juega como delantero y es
-                            considerado uno de los mejores del mundo.
-                            Nació en Funchal, Madeira, el 5 de febrero de 1985.
-                            Ha jugado en varios clubes europeos, como el Manchester United, el Real Madrid y la Juventus
-                            F.C.
-                            Es el capitán y el máximo goleador de la selección de Portugal.
-                            Ha ganado tres Balones de Oro y otros numerosos premios individuales y colectivos</p>
-                        <a href="https://www.youtube.com/watch?v=MWa-OXLz3dI">
-                            <h7>Histori de Cristiano Ronaldo</h7>
-                        </a>
-                        <img src="imagen/Ronaldo/OIP.jfif" alt="">
-                    </div>
-                    <div>
-                        <h2>Inicios en el Fútbol</h2>
-                        <p><strong>Cristiano Ronaldo:</strong> comenzó a jugar al fútbol desde una edad temprana en su
-                            ciudad natal de Funchal.
-                            Su talento sobresaliente se destacó rápidamente, y a los 12 años se mudó a Lisboa para
-                            unirse a la Academia Sporting de Lisboa.</p>
-                        <p> <strong>Debut profesional</strong> Ronaldo hizo su debut profesional con el Sporting de
-                            Lisboa en 2002.
-                            Su impresionante desempeño atrajo la atención de los principales clubes europeos.
-                        </p>
-                        <video width="430" height="290" autoplay controls>
-                            <source
-                                src="./videos/ronaldo/El primer partido oficial de CRISTIANO RONALDO con Sporting Lisboa 2002 - DEBUT de CR7 (17 años).mp4"
-                                type="video/mp4">
-                        </video>
-                    </div><br>
-                </div>
-                
-                    <div class="boxed" style="font-size: 25px;"><strong>Paso por clubes</strong></div>
-                    
                     <div id="Panes">
-                    <div>
+                        <div>
+                            <h2>¿Qué es?</h2>
+                            <p><strong>The Walking Dead</strong> es una serie de
+                                televisión estadounidense de drama horror
+                                postapocalíptico de <a
+                                    href="https://www.amc.com/shows/the-walking-dead--1002293">AMC</a>
+                                basada
+                                en la <a
+                                    href="https://thewalkingdead.fandom.com/es/wiki/The_Walking_Dead_(c%C3%B3mic)">serie
+                                    de cómics homónima</a> de Robert Kirkman,
+                                Tony Moore y
+                                Charlie Adlard. La serie presenta un gran elenco
+                                como supervivientes de un apocalipsis zombi,
+                                tratando de mantenerse con vida bajo la amenaza
+                                casi constante de ataques de los zombis sin
+                                conciencia, coloquialmente conocidos como
+                                «caminantes». Sin embargo, con la caída de la
+                                humanidad, estos supervivientes también
+                                enfrentan conflictos con otros supervivientes
+                                que han
+                                formado grupos y comunidades con sus propios
+                                conjuntos de leyes y morales, lo que a menudo
+                                conduce a conflictos hostiles entre las
+                                comunidades humanas.</p>
+                            <img id="twd" src="./resources/img/TWD.jpg"
+                                alt="TWD.jpg">
+                        </div>
+                        <div>
+                            <h2>¿En qué plataformas la encuentro?</h2>
+                            <p> - La serie The Walking Dead está en Disney
+                                Plus, donde tienen 11 temporadas.
+                                <br>
+                                - está disponible en la plataforma Netflix,
+                                donde encontrarás un total de 10 temporadas.
+                            </p>
+
+                            <video width="430" height="290" autoplay controls>
+                                <source src="./resources/video/videotwd.mp4"
+                                    type="video/mp4">
+                                <!-- Texto alternativo -->
+                            </video>
+
+                        </div><br>
+                        <div>
+                            <h2>¿De dónde viene?</h2>
+                            <p> The Walking Dead se ha convertido en una de las
+                                series más exitosas de la generación,
+                                trayendo de vuelta a uno de los personajes del
+                                mundo de terror más espeluznantes de
+                                todos los tiempos, los zombies, que son el
+                                centro de esta increíble historia de sci-fi.
+                                A lo largo de más de 10 años de trayectoria, la
+                                serie creada por Robert Kirkman se ha
+                                convertido en una producción de culto, y abrió
+                                la puerta para que las series y
+                                películas de zombies vuelvan a recuperar su
+                                gloria en el mundo del entretenimiento en
+                                televisión.</p>
+                            <a
+                                href="https://es.wikipedia.org/wiki/Robert_Kirkman"><img
+                                    id="twd" src="./resources/img/creador.jpg"
+                                    alt="TWD.jpg">
+                            </a>
+
+                        </div>
+                        <div>
+                            <h2>Personajes más iconicos actualmente</h2>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="list-group" id="list-tab"
+                                        role="tablist">
+                                        <a
+                                            class="list-group-item list-group-item-action active"
+                                            id="list-rick-list"
+                                            data-bs-toggle="list"
+                                            href="#list-rick" role="tab"
+                                            aria-controls="list-rick">Rick
+                                            Grimes</a>
+                                        <a
+                                            class="list-group-item list-group-item-action"
+                                            id="list-darl-list"
+                                            data-bs-toggle="list"
+                                            href="#list-daryl" role="tab"
+                                            aria-controls="list-daryl">Daryl
+                                            Dixon</a>
+                                        <a
+                                            class="list-group-item list-group-item-action"
+                                            id="list-negan-list"
+                                            data-bs-toggle="list"
+                                            href="#list-negan" role="tab"
+                                            aria-controls="list-negan">Negan
+                                            Smith</a>
+                                        <a
+                                            class="list-group-item list-group-item-action"
+                                            id="list-maggie-list"
+                                            data-bs-toggle="list"
+                                            href="#list-maggie" role="tab"
+                                            aria-controls="list-maggie">Maggie
+                                            Greene</a>
+                                        <a
+                                            class="list-group-item list-group-item-action"
+                                            id="list-morgan-list"
+                                            data-bs-toggle="list"
+                                            href="#list-morgan" role="tab"
+                                            aria-controls="list-morgan">Morgan
+                                            Jones</a>
+                                        <a
+                                            class="list-group-item list-group-item-action"
+                                            id="list-michonne-list"
+                                            data-bs-toggle="list"
+                                            href="#list-michonne" role="tab"
+                                            aria-controls="list-michonne">Michonne</a>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active"
+                                            id="list-rick" role="tabpanel"
+                                            aria-labelledby="list-rick-list">
+                                            <img id="rick"
+                                                src="./resources/img/rick.webp"
+                                                alt="rick.webp"><br>
+                                            <a
+                                                href="https://thewalkingdead.fandom.com/es/wiki/Rick_Grimes">Rick
+                                                Grimes</a> era el valeroso líder
+                                            de un intrépido grupo de
+                                            supervivientes del apocalipsis zombi
+                                            y el principal precursor de la
+                                            reconstrucción de la civilización.
+                                            <br>
+                                            En el principio, Rick era un policía
+                                            de pueblo que despertó de un coma en
+                                            un mundo plagado por muertos
+                                            vivientes y que por fortuna encontró
+                                            a su familia con
+                                            vida en un campamento en las afueras
+                                            de la ciudad de Atlanta.</div>
+                                        <div class="tab-pane fade"
+                                            id="list-daryl" role="tabpanel"
+                                            aria-labelledby="list-darl-list">
+                                            <img id="daryl"
+                                                src="./resources/img/daryl.webp"
+                                                alt="daryl.webp"><br>
+                                            <a
+                                                href="https://thewalkingdead.fandom.com/es/wiki/Daryl_Dixon">Daryl
+                                                Dixon</a> es un experimentado
+                                            rastreador y survivalista del
+                                            apocalipsis zombie que
+                                            forma parte del grupo de
+                                            supervivientes formado por Rick
+                                            Grimes. <br>
+                                            Aunque nunca abandonó su fachada de
+                                            lobo solitario, Daryl se volvió
+                                            sumamente apegado a sus compañeros
+                                            de equipo y demostró ser un valioso
+                                            aliado en un
+                                            mundo consumido por el caos. Durante
+                                            los momentos de desesperación
+                                            causados por el Gobernador de
+                                            Woodbury, se levantó como el segundo
+                                            al mando del grupo y
+                                            también se consagró como el hombre
+                                            de confianza de Rick.
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="list-negan" role="tabpanel"
+                                            aria-labelledby="list-negan-list">
+                                            <img id="negan"
+                                                src="./resources/img/negan.webp"
+                                                alt="negan.webp"><br>
+                                            <a
+                                                href="https://thewalkingdead.fandom.com/es/wiki/Negan_Smith">Negan
+                                                Smith</a>
+                                            es un superviviente del apocalipsis
+                                            zombie y el infame líder de los
+                                            Salvadores. <br>
+                                            Al mando de un grupo de hombres
+                                            rudos y peligrosos, estos
+                                            mantuvieron por mucho tiempo en
+                                            zozobra a las comunidades que
+                                            rodeaban Washington, D.C.,
+                                            obligándolos
+                                            a pagar altísimos tributos a cambio
+                                            de dejarlos vivir.</div>
+                                        <div class="tab-pane fade"
+                                            id="list-maggie" role="tabpanel"
+                                            aria-labelledby="list-maggie-list">
+                                            <img id="maggie"
+                                                src="./resources/img/maggie.jpg"
+                                                alt="maggie.jpg"><br>
+                                            <a
+                                                href="https://thewalkingdead.fandom.com/es/wiki/Maggie_Greene">Maggie
+                                                Greene</a>
+                                            es una de las sobrevivientes del
+                                            apocalipsis zombie. Maggie vivía con
+                                            su padre y su hermana Beth en una
+                                            granja apartada de la ciudad. Cuando
+                                            Rick apareció
+                                            en su puerta un día con un
+                                            gravemente herido Carl en brazos,
+                                            Maggie tuvo la misión de encontrar a
+                                            Lori para contarle lo que estaba
+                                            pasando.
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="list-morgan" role="tabpanel"
+                                            aria-labelledby="list-morgan-list">
+                                            <img id="morgan"
+                                                src="./resources/img/morgan.jpg"
+                                                alt="morgan.jpg"><br>
+                                            <a
+                                                href="https://thewalkingdead.fandom.com/es/wiki/Morgan_Jones">Morgan
+                                                Jones</a>
+                                            es un superviviente del apocalípsis
+                                            zombie al que Rick Grimes conoció al
+                                            poco tiempo de despertar de su coma
+                                            en el hospital de King County. <br>
+                                            Después de que su esposa fuera
+                                            mordida por un caminante mientras se
+                                            dirigían a Atlanta, Morgan y su hijo
+                                            Duane quedaron varados en King
+                                            County y se
+                                            instalaron en una casa abandonada.
+                                            Habiendo salvado a Rick después de
+                                            encontrarlo deambulando desprevenido
+                                            por las calles del vecindario,
+                                            Morgan le reveló
+                                            todo lo que necesitaba saber sobre
+                                            los muertos vivientes y se ganó su
+                                            gratitud eterna.
+                                        </div>
+                                        <div class="tab-pane fade"
+                                            id="list-michonne" role="tabpanel"
+                                            aria-labelledby="list-michonne-list">
+                                            <img id="michonne"
+                                                src="./resources/img/michonne.webp"
+                                                alt="michonne.webp"><br>
+                                            <a
+                                                href="https://thewalkingdead.fandom.com/es/wiki/Michonne">Michonne</a>
+                                            es una sobreviviente del apocalipsis
+                                            zombie y una de los miembros del
+                                            grupo de Rick Grimes y una de las
+                                            lideres de Alexandria tras la
+                                            desaparición de su pareja. <br>
+                                            Antes del advenimiento de los
+                                            muertos vivientes, Michonne vivía
+                                            con su novio Mike y su hijo Andre en
+                                            un loft en el centro de Atlanta.
+                                            Tras la caída de la
+                                            civilización ella aprendió a manejar
+                                            una katana y se volvió una feroz
+                                            guerrera, aunque eventualmente Andre
+                                            fue asesinado y Mike mordido durante
+                                            un ataque
+                                            de caminantes.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+                        <hr>
+                        <p></p>
+                        <a type="button" class="btn btn-success" href="index.php?m=nuevo" style="margin-right: 965px;">ENCUESTA</a>
+                        <p></p>
                         
-                        <p><strong>Sporting de Lisboa</strong> aqui hizo su debut en el 2002 en la primera division de
-                            la liga portuguesa. Gracias a su desempeño un año despues lo ficho el Manchester United.  </p>
-                        <img id="sporting" src="imagen/Ronaldo/descarga1.jfif" alt="">
-                    </div>
+                        <table id="table" class="display" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>NOMBRE</th>
+                                        <th>TELÉFONO</th>
+                                        <th>CORREO</th>
+                                        <th>CALIFICACIÓN</th>
+                                        <th>PERSONAJE FAV</th>
+                                        <th>RECOMENDACIÓN</th>
+                                        <th>ACCIÓN</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php
+                                if(!empty($dato)):
+                                    foreach($dato as $key => $value)
+                                        foreach($value as $v):?>
+                                        <tr>
+                                            <td><?php echo $v['encuesta_id'] ?> </td>
+                                            <td><?php echo $v['nombre'] ?> </td>
+                                            <td><?php echo $v['telefono'] ?> </td>
+                                            <td><?php echo $v['email'] ?> </td>
+                                            <td><?php echo $v['calificacion'] ?> </td>
+                                            <td><?php echo $v['personaje'] ?> </td>
+                                            <td><?php echo $v['recomienda'] ?> </td>
+                                            <td>
+                                                <a type="button" class="btn btn-success" href="index.php?m=editar&id=<?php echo $v['estudiante_id']?>">EDITAR</a>
+                                                <a type="button" class="btn btn-danger" href="index.php?m=eliminar&id=<?php echo $v['estudiante_id']?>" onclick="return confirm('¿ESTA SEGURO?'); false">ELIMINAR</a>
+                                                
+                                            </td>
+                                        </tr>
+                                        <?php endforeach; ?>
+                                <?php else: ?>
+                                    <tr>
+                                        <td colspan="3">NO HAY REGISTROS</td>
+                                    </tr>
+                                <?php endif ?>
+                                </tbody>
+                        </table>
 
-                    <div>
-                        <p><strong>Manchester United:</strong>En 2003, Cristiano Ronaldo se unió al Manchester United en
-                            la Premier League de Inglaterra.
-                            Durante su tiempo en el club, ganó tres títulos de la Premier League, una Liga de Campeones
-                            de la UEFA y su primer Balón de Oro en 2008. </p>
-                        <img id="mancher" src="imagen/Ronaldo/manchess.jpg" alt="">
                     </div>
-                    <div>
-                        <p><strong>Real Madrid</strong> En 2009, se transfirió al Real Madrid por una entonces cifra
-                            récord mundial de 94 millones de euros.
-                            Durante su estancia en el Real Madrid, se convirtió en el máximo goleador histórico del club
-                            y ganó numerosos títulos, incluyendo cuatro Ligas de Campeones de la UEFA y cuatro Balones
-                            de Oro adicionales.</p>
-                        <img id="real" src="imagen/Ronaldo/real.jpg" alt="">
-                    </div>
-                    <div>
-                        <p><strong>Juventus</strong>En 2018, Ronaldo se unió a la Juventus en la Serie A italiana.
-                            Continuó demostrando su calidad y liderazgo en el campo.
-                        </p>
-                        <img id="juventus" src="imagen/Ronaldo/juventus.jfif" alt="">
-                    </div>
-                    <div>
-                        <p><Strong>Regreso al Manchester United</Strong>En agosto de 2021, Cristiano Ronaldo regresó al
-                            Manchester United, donde se convirtió en una figura clave del equipo una vez más.
-                        </p>
-                        <img id="regreso" src="imagen/Ronaldo/regreso.jfif" alt="">
-                    </div>
-                    <div>
-                       
-                    </div><br>
+                    <hr>
+                    <div class="boxed">Fundamentos Web - <strong>4303A</strong></div>
                 </div>
-                
-                <div class="boxed" style="font-size: 25px;"><strong>Paso Por La Seleccion De Portugal</strong></div>
-                <div id="Panes">
-                    <p>Cristiano Ronaldo es una figura icónica en la selección nacional de Portugal y ha tenido una carrera excepcional representando a su país en competiciones internacionales. 
-                        a sus 18 años aparecio por primera vez con la seleccion mayor el dia 20 de agosto del 2003. hoy despues de 20 años es el maximo goleador historico de su seleccion.
-                        a demas con sus 123 goles es el maximo goleador historico de selecciones a nivel mundial. </p>
-                        <p>esta seleccion antes de la llegada del bicho no habia ganado ningun titulo importante con buenos jugadores como <Strong>deco, figo, ricardo, Eusebio. ETC..</Strong>
-                        para el año 2016 portugal conquista su primera Eurocopa en su historia de la mano de <Strong>Ronaldo como maxima figura</Strong>. siendo este el jugador mas influyente en el torneo.</p>
-                    </p>
-                    <p>con su seleccion ha ganado: </p>
-                        <p>una Eurocopa (2016)</p>
-                        <p>una  UEFA Nations League (2018-2019)</p>
-                        <p>
-                        el luso es considerado el mejor jugador de la historia de portugal.
-                    </p>
-                    <div>
-                    <a href="https://www.youtube.com/watch?v=1HWWtIkRnfA">
-                        <h7>camino a la gloria (Eurocopa 2016)</h7>
-                    </a>
+
+                <hr>
+
+                <div class="boxed"><a style="text-decoration:none"
+                        href="mailto:mail@mail.com">michellklinger@mail.com</a><br><a
+                        style="text-decoration:none" rel="nofollow"
+                        href="https://www.uniajc.edu.co/">Universidad Antonio
+                        José Camacho</a>
+
+                    <a style="cursor:pointer" class="change-consent">|Diseñado
+                        por la estudiante Michell Klinger</a>
+
                 </div>
-                    <video width="430" height="290" autoplay controls>
-                        <source
-                            src="./videos/ronaldo/La GLORIOSA Eurocopa de Cristiano Ronaldo _ HISTORIA COMPLETA.mp4"
-                            type="video/mp4">
-                    </video>
-                </div>
-           
-            <div class="boxed">Fundamentos Wed - <strong>4303A</strong></div>
-        </div>
 
-        <hr>
+            </div>
+            
+            <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+            <script src="https://kit.fontawesome.com/bbff992efd.js" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        </body>
 
-        <div class="boxed"><a style="text-decoration:none" href="mailto:portacantante14@mail.com">portacantante14@mail.com</a><br><a
-                style="text-decoration:none" rel="nofollow" href="https://es.wikipedia.org/wiki/Cristiano_Ronaldo">wikipedia</a>
-           
-        </div>
-
-
-
-
-
-</html>
+    </html>
