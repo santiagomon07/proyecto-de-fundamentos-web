@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    background: #865353;
+    background: rgb(199, 162, 133);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -140,7 +140,7 @@ form .contact-info {
     display: flex;
     width: calc(100%);
     font-size: 13px;
-    background: #6128ff;
+    background: #d46767;
     color: #fff;
     border-radius: 3px;
     transform: translateX(-50%);

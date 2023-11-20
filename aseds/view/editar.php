@@ -18,32 +18,32 @@
 
         <div class="input-group">
             <label for="nombre">Nombre Completo:</label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre" value="<?php echo $v['nombre']; ?>">
         </div>
 
         <div class="input-group">
             <label for="telefono">Teléfono:</label>
-            <input type="number" name="telefono" id="telefono">
+            <input type="number" name="telefono" id="telefono" value="<?php echo $v['telefono']; ?>">
         </div>
 
         <div class="input-group">
             <label for="email">Correo:</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" value="<?php echo $v['email']; ?>">
         </div>
 
         <div class="input-group">
             <label for="calificacion">1 al 5 Califica la serie (1.Muy mala serie y 5.Excelente serie)</label>
-            <input type="number" name="calificacion" id="calificacion">
+            <input type="number" name="calificacion" id="calificacion" value="<?php echo $v['calificacion']; ?>">
         </div>
 
         <div class="input-group">
             <label for="personaje">Personaje favorito:</label>
-            <input type="text" name="personaje" id="personaje">
+            <input type="text" name="personaje" id="personaje" value="<?php echo $v['personaje']; ?>">
         </div>
 
         <div class="input-group">
             <label for="recomienda">¿Recomiendas la serie? Justifica</label>
-            <input type="text" name="recomienda" id="recomienda">
+            <input type="text" name="recomienda" id="recomienda" value="<?php echo $v['recomienda']; ?>">
         </div>
 
         <div class="button-container">
@@ -54,12 +54,18 @@
         <input type="hidden" name="m" value="actualizar">
         <div class="contact-info">
 
-            <div class="info">
-                <span><i class="fas fa-map-marker-alt"></i> Avenida 6N <br>No. 28N - 102. <br>Cali - Valle</span>
+        <div class="info">
+            <p align="center" >
+                    
+                    Gracias por contestar nuestra encuesta,
+                    nos ayudas a mejorar cada día.
+                    </p>
+                    
+                </p>            
             </div>
 
             <div class="info">
-                <span><i class="fas fa-phone"></i> +57 602 6652828</span>
+                <span><i class="fas fa-phone"></i> +57 3014062595</span>
             </div>
 
         </div>
@@ -71,6 +77,8 @@
     
     <script src="https://kit.fontawesome.com/bbff992efd.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
+    <!--Boton de accessibility-->
+    <script class="mx-3">(function(d){var s = d.createElement("script");s.setAttribute("data-account", "tkCHtUA3Ge");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+        
 </body>
 </html>

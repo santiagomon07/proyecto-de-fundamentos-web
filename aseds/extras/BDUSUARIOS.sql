@@ -21,15 +21,15 @@ SET time_zone = "+00:00";
 -- DROP TABLE usuarios, encuesta;
 -- SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'usuarios';
 -- ALTER TABLE usuarios RENAME TO usuarios_new;
--- CREATE SCHEMA IF NOT EXISTS `longin_register_db` DEFAULT CHARACTER SET utf8mb4;
--- USE `longin_register_db` ;
+-- CREATE SCHEMA IF NOT EXISTS `login_register_db` DEFAULT CHARACTER SET utf8mb4;
+USE `login_register_db` ;
 -- --------------------------------------------------------
 
--- Base de datos: `longin_register_db`
+-- Base de datos: `login_register_db`
 
 -- Estructura de tabla para la tabla `usuarios`
 
-CREATE TABLE IF NOT EXISTS `longin_register_db`.`usuarios` (
+CREATE TABLE IF NOT EXISTS `login_register_db`.`usuarios` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `nombre_completo` varchar(50) NOT NULL,
   `correo` varchar(50) NOT NULL,
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS `longin_register_db`.`usuarios` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish_ci;
 
-CREATE TABLE IF NOT EXISTS `longin_register_db`.`encuesta` (
+CREATE TABLE IF NOT EXISTS `login_register_db`.`encuesta` (
   `encuesta_id` INT NOT NULL AUTO_INCREMENT,
   `nombre` varchar(50) NOT NULL,
   `telefono` varchar(11) NOT NULL,
