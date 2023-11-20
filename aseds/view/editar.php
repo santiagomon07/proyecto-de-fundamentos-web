@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="./extras/img/logouni.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./view/style.css">
-    <title>Crear</title>
+    <title>Editar</title>
 </head>
 <body>
     <h1 class="text-center">Encuesta TWD - Editar</h1>
