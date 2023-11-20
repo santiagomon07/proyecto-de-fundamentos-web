@@ -1,5 +1,5 @@
 <?php
-//require_once("./config/config.php");
+
 require_once("./controller/index.php");
 if(isset($_GET['m'])):    
     if(method_exists("modeloController",$_GET['m'])):
